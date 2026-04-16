@@ -1,0 +1,19 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+nltk
+wordcloud>=1.9.0
+nltk>=3.8.0
+
+# Topic modeling
+# For LDA — already in scikit-learn (LatentDirichletAllocation)
+
+# Graph clustering
+networkx>=3.1
+python-louvain>=0.16
+
+# Optional: BERTopic (heavier, GPU-optional)
+bertopic>=0.15.0
+sentence-transformers>=2.2.0
